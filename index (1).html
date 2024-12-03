@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container text-center my-5">
+      <div class="login-form w-75 m-auto ps-5 pe-5 py-4">
+        <h1 class="my-3">Smart Login System</h1>
+        <input type="email" placeholder="Enter Your Email" id="login-email" />
+        <input
+          type="password"
+          class="my-4"
+          placeholder="Enter Your Password"
+          id="login-password"
+        />
+        <h6 class="my-3 text-danger" id="vald-login" style="display: none"></h6>
+        <button
+          class="w-100 btn btn-outline-info my-2"
+          id="logIn"
+          onclick="login()"
+        >
+          Login
+        </button>
+        <p class="text-white">
+          Don’t have an account ?
+          <a href="sign in.html" class="link">Login </a>
+        </p>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
